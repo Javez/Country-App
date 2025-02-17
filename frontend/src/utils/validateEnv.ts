@@ -17,4 +17,6 @@ const validateAppEnv = () => {
   });
 };
 
-export default { validateAppEnv };
+const appEnv = { validateAppEnv };
+
+export default appEnv;

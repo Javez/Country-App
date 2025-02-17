@@ -1,21 +1,94 @@
-npm init -y
-npm install express cors dotenv axios
-npm install --save-dev nodemon
+# Getting Started with [Backend] Country App.
 
+## 🔧 Installation Win/Linux
+
+1. Create folder and open in IDE;
+2. Open the terminal and clone repository;
+3. Clone the repository: `https://github.com/Javez/Country-App.git`;
+4. Navigate to the project directory: `cd [folder_name]/backend`;
+5. Install dependencies: `npm install` ([Optional] or use manual install packages with list below);
+6. Add dev.env to your backend root folder;
+7. Set needed env vars with example.env.txt file in root folder;
+6. Congrats! You can start a project by running scripts.
+
+## ⚙ Packages
+
+<h3><ins> Note: This is the list of packages for manual install!</ins></h3>
+
+```
+npm install -g typescript
+npm init -y
+npx tsc --init
+
+npm install axios cors cross-env dotenv envalid express
+
+npm install --save-dev eslint/js @types/cors @types/express @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier globals nodemon prettier ts-node typescript typescript-eslint
+```
+
+<h3><ins>tsconfig.json</ins></h3>
+
+```
 {
   "compilerOptions": {
-    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    "experimentalDecorators": true,                   /* Enable experimental support for legacy experimental decorators. */
-    "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. */
-    "module": "commonjs",                                /* Specify what module code is generated. */
-    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
-    "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
-    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
-    "strict": true,                                      /* Enable all strict type-checking options. */
-    "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "target": "es2016",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
   },
   "include": ["src/*.ts"],
   "exclude": ["dist", "node_modules"]
 }
+```
+
+<!-- Run options -->
+
+## 🚀 Run options
+
+| Options    |                          Command                         |
+| :-----:    | :------------------------------------------------------: |
+| "start"    | `cross-env NODE_ENV=prod npx tsc && node dist/server.js` |
+| "dev"      | `cross-env NODE_ENV=dev nodemon src/server.ts`           |
+| "lint"     | `eslint . --ext .ts`                                     |
+| "lint:fix" | `eslint . --ext .ts --fix`                               |
+| "format"   | `prettier --write \"**/*.{ts,js,json}\"`                 |
+
+## ⚡ Docker container
+
+**N/A**
+
+<!-- Contributing -->
+
+## Contributing
+
+**N/A**
+
+<!-- License -->
+
+## License
+
+**N/A**
+
+<!-- Screenshots or GIF Animations -->
+
+## Screenshots/GIFs
+
+<!-- Repository Info Card -->
+
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=Javez&repo=Country-App)](https://github.com/Javez/Country-App)
+
+<!-- License -->
+
+**N/A**
+
+<!-- Footer -->
+<p align="center">
+   <a>Made with ❤️ and TS</a>
+   </br>
+</p>

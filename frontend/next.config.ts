@@ -1,4 +1,4 @@
-import validateEnv from "@/app/utils/validateEnv";
+import validateEnv from "@/utils/validateEnv";
 import type { NextConfig } from "next";
 
 validateEnv.validateAppEnv();
