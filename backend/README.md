@@ -2,14 +2,11 @@
 
 ## 🔧 Installation Win/Linux
 
-1. Create folder and open in IDE;
-2. Open the terminal and clone repository;
-3. Clone the repository: `https://github.com/Javez/Country-App.git`;
-4. Navigate to the project directory: `cd [folder_name]/backend`;
-5. Install dependencies: `npm install` ([Optional] or use manual install packages with list below);
-6. Add dev.env to your backend root folder;
-7. Set needed env vars with example.env.txt file in root folder;
-6. Congrats! You can start a project by running scripts.
+1. Navigate to the project directory: `cd [folder_name]/backend`;
+2. Install dependencies: `npm install` ([Optional] or use manual install packages with list below);
+3. Add dev.env to your backend root folder;
+4. Set needed env vars with example.env.txt file in root folder;
+5. Congrats! You can start a project by running scripts.
 
 ## ⚙ Packages
 

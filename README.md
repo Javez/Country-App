@@ -20,6 +20,13 @@ Node version: v22.13.1.
 Each project (frontend and backend) has its own readme file for installation and running scripts.
 </br>
 
+## Installation
+
+1. Create folder and open in IDE;
+2. Open the terminal and clone repository;
+3. Clone the repository: `https://github.com/Javez/Country-App.git`;
+4. Proceed with installation in each sub project.
+
 ## Project Overview
 
 ### Backend
